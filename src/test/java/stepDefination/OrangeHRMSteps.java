@@ -15,9 +15,8 @@ public class OrangeHRMSteps {
     public void when_i_launch_chrome_browser() {
         System.setProperty("webdriver.chrome.driver", "Browaser/chromedriver.exe");
         driver = new ChromeDriver();
-        System.out.println("Changes performed for Git");
-        System.out.println("Changes performed for Git2");
-        System.out.println("Changes performed for Git3");
+
+
 
     }
 
@@ -26,7 +25,6 @@ public class OrangeHRMSteps {
         driver.get("https://opensource-demo.orangehrmlive.com/");
     }
 
-}
 
 // System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 //        driver = new ChromeDriver();
