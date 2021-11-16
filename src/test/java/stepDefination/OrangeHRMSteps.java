@@ -17,6 +17,7 @@ public class OrangeHRMSteps {
         driver = new ChromeDriver();
         System.out.println("Changes performed for Git");
         System.out.println("Changes performed for Git2");
+        System.out.println("Changes performed for Git3");
 
     }
 
